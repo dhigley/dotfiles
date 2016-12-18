@@ -1,0 +1,4 @@
+# simlink this file into /usr/local/var/rbenv
+bundler
+pry
+awesome_print

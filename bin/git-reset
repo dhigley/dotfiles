@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Undo and remove ALL changes made since last commit
+
+# 'git clean' removes all untracked files and folders and
+git clean -df
+# 'git checkout' clears all unstaged changes
+git checkout -- .
