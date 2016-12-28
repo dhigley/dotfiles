@@ -40,6 +40,7 @@
   Plugin 'vim-airline/vim-airline'
   Plugin 'vim-airline/vim-airline-themes'
   Plugin 'majutsushi/tagbar'
+  Plugin 'mileszs/ack.vim'
 
 " all the plugins have been added (required!)
   call vundle#end()
