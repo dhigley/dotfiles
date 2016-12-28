@@ -3,3 +3,7 @@
 vim/vim.symlink/vundle/
 vim/vim.symlink/plugins/
 vim/vim.symlink/.netrwhist
+
+# bundle #
+ruby/bundle.symlink/cache
+
