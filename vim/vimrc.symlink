@@ -18,7 +18,6 @@
   Plugin 'airblade/vim-gitgutter'
   Plugin 'altercation/vim-colors-solarized'
   Plugin 'bingaman/vim-sparkup'
-  Plugin 'clones/vim-fuzzyfinder'
   Plugin 'godlygeek/tabular'
   Plugin 'kchmck/vim-coffee-script'
   Plugin 'michaeljsmith/vim-indent-object'
@@ -41,6 +40,7 @@
   Plugin 'vim-airline/vim-airline-themes'
   Plugin 'majutsushi/tagbar'
   Plugin 'mileszs/ack.vim'
+  Plugin 'wincent/command-t'
 
 " all the plugins have been added (required!)
   call vundle#end()
