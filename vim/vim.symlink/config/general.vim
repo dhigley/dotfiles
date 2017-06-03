@@ -81,6 +81,10 @@
 " select all
   map <Leader>A ggVG
 
+" Press F5 in normal mode or in insert mode to insert the current datestamp
+  nnoremap <Leader>T "=strftime("%FT%T%z")<CR>p
+  inoremap <Leader>T <C-R>=strftime("%FT%T%z")<CR>
+
 " highlight current line and target column width
   au BufEnter * setlocal cursorline
   au BufEnter * setlocal colorcolumn=81
