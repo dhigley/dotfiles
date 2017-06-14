@@ -30,3 +30,6 @@ alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pa
 
 # put dirs in a list
 alias dirs='dirs -v'
+
+# use the correct term for ssh
+alias ssh="TERM=xterm-256color ssh"
