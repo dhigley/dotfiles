@@ -1,0 +1,2 @@
+# Tell tmux to us a 256 color italic terminal
+set -g default-terminal "tmux-256color"
