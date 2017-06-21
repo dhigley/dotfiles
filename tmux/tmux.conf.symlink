@@ -1,2 +1,48 @@
-# Tell tmux to us a 256 color italic terminal
+##############
+# My Configs #
+##############
+
+# enable mouse mode
+set -g mouse on
+
+# source .tmux.conf as suggested in `man tmux`
+bind R source-file ~/.tmux.conf
+
+
+################
+# Tmux Plugins #
+################
+
+## Plugin List ##
+set -g @plugin 'seebi/tmux-colors-solarized'
+set -g @plugin 'tmux-plugins/tmux-pain-control'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @plugin 'tmux-plugins/tpm'
+
+# Other examples:
+# set -g @plugin 'github_username/plugin_name'
+# set -g @plugin 'git@github.com/user/plugin'
+# set -g @plugin 'git@bitbucket.com/user/plugin'
+
+## Plugin Options ##
+
+## tmux-sensible overrides
+# upgrade $TERM
 set -g default-terminal "tmux-256color"
+
+# copy-paste integration
+set-option -g default-command "reattach-to-user-namespace -l zsh"
+
+# use vi key bindings
+set -g status-keys vi
+
+# tmux messages are displayed for 4 seconds
+set -g display-time 4000
+
+## solarized color options
+set -g @colors-solarized 'dark'
+# set -g @colors-solarized 'light'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'

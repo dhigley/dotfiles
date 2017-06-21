@@ -7,3 +7,5 @@ vim/vim.symlink/.netrwhist
 # bundle #
 ruby/bundle.symlink/cache
 
+# tmux-plugins #
+tmux/tmux.symlink/plugins/
