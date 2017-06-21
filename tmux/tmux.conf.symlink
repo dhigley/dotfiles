@@ -8,6 +8,8 @@ set -g mouse on
 # source .tmux.conf as suggested in `man tmux`
 bind R source-file ~/.tmux.conf
 
+# use vim-key 'v' to start a selection for copy/paste
+bind-key -T copy-mode-vi 'v' send -X begin-selection
 
 ################
 # Tmux Plugins #

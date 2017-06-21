@@ -12,6 +12,7 @@ brew install postgresql
 brew install rbenv
 brew install rbenv-default-gems
 brew install rbenv-gemset
+brew install reattach-to-user-namespace
 brew install speedtest_cli
 brew install the_silver_searcher
 brew install tmux --with-utf8proc
@@ -32,3 +33,5 @@ brew tap buo/cask-upgrade
 brew linkapps
 brew cleanup
 brew prune
+
+
